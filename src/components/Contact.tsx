@@ -86,8 +86,8 @@ margin: 1rem 0;
   padding: 10px;
   border-radius: 16px;
   background: papayawhip;
-  border: 2px solid lightgray;
-  border-color: ${({isDirty}) => isDirty ? 'red' : 'lightgray'};
+  border: 2px solid green;
+  border-color: ${({isDirty}) => isDirty ? 'red' : 'green'};
   border-radius: 3px;
   ::placeholder {
     color: palevioletred;
@@ -102,8 +102,8 @@ margin: 1rem 0;
     font-size: 18px;
   padding: 10px;
   background: papayawhip;
-  border: 2px solid lightgray;
-  border-color: ${({isDirty}) => isDirty ? 'red' : 'lightgray'};
+  border: 2px solid green;
+  border-color: ${({isDirty}) => isDirty ? 'red' : 'green'};
   border-radius: 3px;
   ::placeholder {
     color: palevioletred;

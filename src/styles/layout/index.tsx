@@ -42,6 +42,10 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 100;
         font-size: 1.25rem;
     }
+    button {
+        font-family: ${poppins.style.fontFamily};
+        font-weight: 600;   
+    }
 
     * {
       box-sizing: border-box;

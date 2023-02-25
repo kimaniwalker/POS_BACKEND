@@ -56,8 +56,8 @@ const Button = styled.button`
   color: white;
   font-size: 1em;
   margin: 1em;
-  height: 50px;
-  width: 250px;
+  min-height: 50px;
+  width: 200px;
   padding: 0.25em 1em;
   border: 2px solid #8b52ff;
   background-color: #8b52ff;

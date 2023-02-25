@@ -1,3 +1,4 @@
+import { breakpoints } from '@/utils/breakpoints'
 import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
@@ -20,10 +21,15 @@ const Wrapper = styled(Image)`
     `
 const ImageWrapper = styled.div`
 position: relative;
-min-height: 720px;
 width: 100%;
 object-fit: cover;
 object-position: center;
+@media ${breakpoints.large} {
+    height: 768px;
+   
+  }
+
+
 `
 
 
