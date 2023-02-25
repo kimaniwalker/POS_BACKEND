@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -8,7 +9,9 @@ export default function Header() {
     return (
         <Wrapper>
             <Content>
+                <Link href="/api/auth/login">
             <Image src="/POS.png" alt='logo' width={200} height={200}/>
+                </Link>
             </Content>
         </Wrapper>
     )
