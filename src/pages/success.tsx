@@ -5,7 +5,7 @@ export default function Success() {
 
     return (
         <>
-            
+            <h1>Logged In</h1>
         </>
     )
 }
